@@ -1,6 +1,6 @@
 local socket = require("socket")
-host = host or "localhost"
-port = port or 2020
+host = "localhost"
+port = 2020
 
 print("Attempting connection to host '" ..host.. "' and port " ..port.. "...")
 c = assert(socket.connect(host, port))
